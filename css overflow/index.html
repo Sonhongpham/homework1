@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .col-wrap {
+        display: table;
+        width: 100%;
+    }
+
+    .col {
+        display: table-cell;
+        padding: 1rem
+    }
+    
+    p{
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+
+
+    }
+    #fl1{
+        overflow: visible;
+    }
+    #fl2{
+        overflow: hidden;
+        
+        
+    }
+    #fl3{
+        overflow: auto;
+        
+        
+    }
+    #fl4{
+        overflow: scroll;
+        
+    }
+
+</style>
+
+<body>
+    <div class="col-wrap">
+        <div class="col"></div>
+            <h1>overfolow : visible</h1>
+            <p id="fl1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse.
+            </p>
+        </div>
+        <div class="col">
+            <h1>overfolow : hidden</h1>
+            <p id="fl2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse.
+            </p>
+        </div>
+        <div class="col">
+            <h1>overfolow : auto</h1>
+            <p id="fl3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse.
+            </p>
+        </div>
+        <div class="col">
+            <h1>overfolow : scroll</h1>
+            <p id="fl4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam recusandae sunt dolores perspiciatis aut
+                deserunt. In consequatur culpa pariatur quis cumque, inventore totam repellendus, reprehenderit, debitis odio
+                illo esse. 
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
